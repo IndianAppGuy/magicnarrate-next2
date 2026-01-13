@@ -2,7 +2,6 @@
 import TwoButtons2 from './TwoButtons2'
 import UniversalVideoPlayer from '@/components/global/UniversalVideoPlayer'
 import InstallsRated from './installs-rated'
-import AutoPlayVideo from './AutoPlayVideo'
 
 export default function HeroCenter() {
   return (
@@ -23,7 +22,11 @@ export default function HeroCenter() {
         </div>
 
         <div className="mt-6 max-w-4xl mx-auto">
-          <AutoPlayVideo src='https://screen.studio/share/nrQ5z4DE' />
+          <UniversalVideoPlayer
+            src='https://player.mux.com/01XVMLXhXV01OpHUu4jkJzUKg3Fomq02Fvzz9MBHhoT4tY?metadata-video-title=Ai_narration&video-title=Ai_narration'
+            title='AI Narration Demo'
+            autoplayOnScroll={true}
+          />
         </div>
       </div>
     </div>
