@@ -3,6 +3,7 @@ import { Plus_Jakarta_Sans, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { generateMetadata } from "@/lib/metadata";
 import { Toaster } from "@/components/ui/sonner";
+import DataFastAnalytics from "@/components/global/DataFast";
 
 const plusJakartaSans = Plus_Jakarta_Sans({
   variable: "--font-plus-jakarta",
@@ -42,6 +43,7 @@ export default function RootLayout({
         className={`${plusJakartaSans.className} ${geistMono.variable} antialiased`}
       >
         {children}
+        <DataFastAnalytics />
         <Toaster position="top-center" richColors />
       </body>
     </html>
