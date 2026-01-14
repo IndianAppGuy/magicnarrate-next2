@@ -6,6 +6,15 @@ import FooterWebApp from '@/components/global/FooterWebApp'
 import HeroCenter from '@/components/home/HeroCenter'
 import { useState } from 'react'
 import { toast } from 'sonner'
+import { Metadata } from 'next'
+import { generateMetaData } from '../../utils'
+
+export const metadata: Metadata = generateMetaData({
+    title: 'AI Narration Add-on for Presentations | MagicNarrate',
+    description: 'MagicNarrate turns any presentation into a narrated video. Open your deck, click “Generate Narration”, and get a shareable video link in minutes.',
+    slug: '/',
+    ogimage: `https://pbs.twimg.com/media/G-m6tlMb0AAm5n8?format=jpg&name=large`
+})
 
 const Page = () => {
     const [openFaq, setOpenFaq] = useState<number | null>(0)
