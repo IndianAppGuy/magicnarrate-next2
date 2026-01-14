@@ -14,7 +14,7 @@ function PrivacyPolicy() {
                         Privacy Policy
                     </h1>
                     <p className="mt-3 text-sm text-slate-600">
-                        Last updated: 9 Jan 2026
+                        Last updated: 14 Jan 2026
                     </p>
                 </div>
 
