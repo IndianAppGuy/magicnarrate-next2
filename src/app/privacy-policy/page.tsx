@@ -14,7 +14,7 @@ function PrivacyPolicy() {
                         Privacy Policy
                     </h1>
                     <p className="mt-3 text-sm text-slate-600">
-                        Last updated: 14 Jan 2026
+                        Last updated: 16 Jan 2026
                     </p>
                 </div>
 
@@ -198,10 +198,34 @@ function PrivacyPolicy() {
                             Data Security
                         </h2>
                         <p>
-                            We take reasonable measures to protect information from
-                            unauthorized access, disclosure, alteration, or destruction,
-                            including access controls, encryption in transit, and monitoring for
-                            misuse.
+                            We apply specific technical and organizational safeguards to protect sensitive data, including Google user data, narration input, generated audio/video, and authentication credentials.
+                        </p>
+                        <p>
+                            These protections include:
+                        </p>
+                        <p>
+                            Encryption in transit using HTTPS/TLS for all data exchanged between your browser, our servers, and third-party service providers.
+                        </p>
+                        <p>
+                            Encryption at rest for stored sensitive data, including narration inputs, generated outputs, and authentication tokens, where applicable.
+                        </p>
+                        <p>
+                            Access controls and least-privilege policies, ensuring only authorized systems and personnel can access sensitive data.
+                        </p>
+                        <p>
+                            Secure OAuth handling, where Google access tokens are stored securely, used only to provide requested functionality, and never shared or sold.
+                        </p>
+                        <p>
+                            Short-lived data retention, where sensitive content (such as slide content and generated narration) is retained only as long as necessary to provide the service.
+                        </p>
+                        <p>
+                            Monitoring and logging to detect unauthorized access, misuse, or security incidents.
+                        </p>
+                        <p>
+                            Regular security reviews and updates to maintain protection against evolving threats.
+                        </p>
+                        <p>
+                            We do not allow human review of Google user content unless required for support purposes and explicitly authorized by the user.
                         </p>
                     </section>
 
